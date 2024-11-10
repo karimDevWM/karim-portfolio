@@ -1,8 +1,13 @@
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
+import * as AOS from 'aos';
 
 import { AppModule } from './app/app.module';
 
-platformBrowserDynamic().bootstrapModule(AppModule, {
-  ngZoneEventCoalescing: true
-})
+AOS.init();
+
+platformBrowserDynamic().bootstrapModule(AppModule, 
+// {
+//   ngZoneEventCoalescing: true
+// }
+)
   .catch(err => console.error(err));
