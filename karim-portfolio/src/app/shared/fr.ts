@@ -51,7 +51,7 @@ export const locale = {
             'mission':'Mission',
             'technologies':'Téchnologies',
             'detail':'Détail',
-            'tripsCountries':'Belgique, Espagne, Pays-Bas, Suisse',
+            'tripsCountries':'Espagne, Suisse',
             'boardGamesPlayed':'Jeu de dames et de dominos, Among US, Ludo, ..etc',
             'years':'ans'
         },
