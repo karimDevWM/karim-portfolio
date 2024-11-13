@@ -1,6 +1,7 @@
 export const locale = {
     lang: 'en',
-    data: {
+    data: 
+    {
         'about': {
             'title': 'About',
             'jobTitle': 'Web and mobile application developer',
@@ -69,7 +70,8 @@ export const locale = {
             'sourceCode':'Source code',
             'allCategories': "all categories",
             'sideProject': 'side project',
-            'freelanceProject': 'freelance project'
+            'freelanceProject': 'freelance project',
+            'technologies': 'Technologies'
         },
         'references': {
             'title': 'References',

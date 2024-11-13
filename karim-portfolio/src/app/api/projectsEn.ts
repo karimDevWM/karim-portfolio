@@ -1,66 +1,63 @@
 export const projectsEn = [
     {
         id:"bookSocialNetworkFront",
-        name: "Book Social Network - Client App",
+        name: "Borrowing Book - Front",
         category: "side project",
         technologies: 
             'Github Actions CI/CD pipeline, Github Pages, Angular, Typescript, Bootstrap',
         images: [
             {
                 title:'Technologies',
-                src: "assets/images/voyages.webp",
-            },
-            {
-                title:'appImage',
-                src: "assets/images/voyages.webp",
+                src: "assets/images/bsnClientAppTechnologies.PNG",
             },
         ],
-        newSkills : "in this project, i leaned to automatically generate in my Angular app services and models and other API services, thanks to OpenAPI specifications.",
         url: "https://karimdevwm.github.io/book-network-ui/login",
-        detail:"",
         codeSourceUrl:'https://github.com/karimDevWM/book-network-ui',
         detailIsDisplayed: false,
     },
     {
         id:"bookSocialNetworkBack",
-        name: "Book Social Network - API",
-        category: "side project",
+        name: "Borrowing Book - API",
+        category: "projet en temps libre",
         technologies: 'PostgresSQL database, Maven, Docker, Github Actions CI/CD pipeline, VPS, Java, Spring Boot, JWT Authentication Authorization',
         images: [
             {
                 title:'technologies',
-                src: "assets/images/voyages.webp",
+                src: "assets/images/bsnAPITechnologies.PNG",
             },
-            {
-                title:'Swagger-API',
-                src:"assets/images/voyage.webp",
-            }
         ],
-        newSkills : "In this project i learned how to start efficiently the project by setting the security, then exceptions/errors handling, and in the end features development. By this way we have all the security and erros/exceptions prepared to be integrated into the features.",
         url: "https://karimdevwm.github.io/book-network-ui/login",
-        detail:"This is the Spring boot API that is responsible for seeing books available for borrowing, add a book into wish list, seeing the returned book, managing my submitted books, users can comment and note the book",
         codeSourceUrl:'https://github.com/karimDevWM/book-network',
         detailIsDisplayed: false,
     },
     {
-        id:"bookSocialNetworkBack",
-        name: "Book Social Network - API",
-        category: "freelance project",
-        technologies: 'PostgresSQL database, Maven, Docker, Github Actions CI/CD pipeline, VPS, Java, Spring Boot, JWT Authentication Authorization',
+        id:"accessibilityTestor",
+        name: "Testeur accessibilité",
+        category: "projet en freelance",
+        technologies: 'WCAG Contrast checker, Color Contrast Analyser, HeadingsMap pour Firefox, HeadingsMap pour Chrome, PAC (PDF Accessibility Checker) 2021 pour Windows, AccessODF pour LibreOffice, Ace by DAISY App',
         images: [
             {
                 title:'technologies',
-                src: "assets/images/voyages.webp",
+                src: "assets/images/accessibilityTools.PNG",
             },
-            {
-                title:'Swagger-API',
-                src:"assets/images/voyage.webp",
-            }
         ],
-        newSkills : "In this project i learned how to start efficiently the project by setting the security, then exceptions/errors handling, and in the end features development. By this way we have all the security and erros/exceptions prepared to be integrated into the features.",
         url: "https://karimdevwm.github.io/book-network-ui/login",
-        detail:"This is the Spring boot API that is responsible for seeing books available for borrowing, add a book into wish list, seeing the returned book, managing my submitted books, users can comment and note the book",
         codeSourceUrl:'https://github.com/karimDevWM/book-network',
         detailIsDisplayed: false,
-    }
+    },
+    {
+        id:"ecommerce",
+        name: "construction d'une solution ecommerce",
+        category: "projet en freelance",
+        technologies: 'C#, ASP.Net core 7 Web API, Docker, Github Action, Heroku, React, Stripe',
+        images: [
+            {
+                title:'technologies',
+                src: "assets/images/ecommerceTechnologies.PNG",
+            },
+        ],
+        url: "https://karimdevwm.github.io/book-network-ui/login",
+        codeSourceUrl:'https://github.com/karimDevWM/book-network',
+        detailIsDisplayed: false,
+    },
 ];

@@ -6,7 +6,6 @@ import { locale as french } from '../shared/fr';
 import { projectsEn} from '../api/projectsEn';
 import { projectsFr} from '../api/projectsFr';
 import { MatDialog } from '@angular/material/dialog';
-import { ModalContentComponent } from '../modal-content/modal-content.component';
 import { data } from 'jquery';
 
 @Component({
@@ -15,8 +14,9 @@ import { data } from 'jquery';
   styleUrl: './projects.component.css'
 })
 export class ProjectsComponent implements OnInit {
+  hover = false;
   projects:any[]=projectsEn;
-  venobox: any;
+
   constructor(
     private _translationLoaderService: TranslationLoaderService,
     private _translateService: TranslateService,
@@ -48,15 +48,6 @@ export class ProjectsComponent implements OnInit {
       ? this.projects.filter(project => project.category === this.selectedCategory)
       : this.projects;
   }
-  
-  openModal(project: any) {
-    this.dialog.open(ModalContentComponent, {
-      width: '80%',
-      data: project,
-      position: { top: '-40%', left: '50%' },
-      panelClass: 'custom-dialog-container'
-    });
-  }
 
   // ngAfterViewInit(){
   //   console.log("after view init");
@@ -69,10 +60,12 @@ export class ProjectsComponent implements OnInit {
   //   this.venobox.venobox();
   // }
 
-  // detailOnClick(project: any) {
-  //   this.projects.filter(item=>item.detailIsDisplayed && item.id!=project.id).map(elem=>elem.detailIsDisplayed=false);
-  //   project.detailIsDisplayed=!project.detailIsDisplayed;
-  // }
+  detailOnClick(project: any) {
+    this.projects.filter(item=>item.detailIsDisplayed && item.id!=project.id).map(elem=>elem.detailIsDisplayed=false);
+    project.detailIsDisplayed=!project.detailIsDisplayed;
+  }
+
+
 
   // onMouse(idLink: String, idImage: String) {
   //   $('#' + idLink).on("mouseenter", function () {

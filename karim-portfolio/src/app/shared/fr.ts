@@ -68,6 +68,7 @@ export const locale = {
         },
         'projects': {
             'title': 'Projets',
+            'technologies': 'Technologies',
             'projectDetail':'Détail projet',
             'sourceCode':'Code source',
             'allCategories': 'toutes les catégories',

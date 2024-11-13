@@ -28,10 +28,12 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
     border-color: white!important;
 }
 
-.custom-dialog-container {
+/*
+.custom-dialog-container {*/
     /* Position the dialog at the exact center */
-    position: absolute;
-    margin: 10%;
-    top: 10%;
-    transform: translate(-50%, -50%);
-}
+/*    position: absolute;*/
+/*    margin: 10%;*/
+/*    top: 10%;*/
+/*    transform: translate(-50%, -50%);*/
+/*}
+*/

@@ -1,13 +1,22 @@
 import { Component, OnInit } from '@angular/core';
+import { FormBuilder, FormGroup, Validators } from '@angular/forms';
+import { TranslationLoaderService } from '../service/translation-loader.service';
+import { locale as english } from '../shared/en';
+import { locale as french } from '../shared/fr';
 
 @Component({
   selector: 'app-contact',
   templateUrl: './contact.component.html',
-  styleUrl: './contact.component.css'
+  styleUrls: ['./contact.component.css']
 })
-export class ContactComponent implements OnInit{
-  ngOnInit(): void {
-    throw new Error('Method not implemented.');
+export class ContactComponent implements OnInit {
+
+  constructor(private _translationLoaderService: TranslationLoaderService) {
+    this._translationLoaderService.loadTranslations(english, french);
+  
   }
 
+  ngOnInit(): void {
+   
+  }
 }

@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatSelectModule } from '@angular/material/select';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
@@ -9,6 +10,7 @@ import { MatRadioModule } from '@angular/material/radio';
 import { FormsModule } from '@angular/forms';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { MatDialogModule } from '@angular/material/dialog';
+import { DxTextAreaModule } from "devextreme-angular";
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
@@ -18,7 +20,6 @@ import { AboutComponent } from './about/about.component';
 import { CurriculumVitaeComponent } from './curriculum-vitae/curriculum-vitae.component';
 import { HomeComponent } from './home/home.component';
 import { ContactComponent } from './contact/contact.component';
-import { ModalContentComponent } from './modal-content/modal-content.component';
 
 @NgModule({
   declarations: [
@@ -30,11 +31,13 @@ import { ModalContentComponent } from './modal-content/modal-content.component';
     CurriculumVitaeComponent,
     HomeComponent,
     ContactComponent,
-    ModalContentComponent
   ],
+
   imports: [
     BrowserModule,
+    BrowserAnimationsModule,
     AppRoutingModule,
+    DxTextAreaModule,
     FormsModule,
     MatRadioModule,
     MatSelectModule,
