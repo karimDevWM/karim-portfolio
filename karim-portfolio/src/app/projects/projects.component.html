@@ -10,7 +10,7 @@
             </select>
         </div>
         <div class="row mt-5">
-            <div class="col-lg-4 col-sm-12 " *ngFor="let project of filteredProjects;">
+            <div class="col-lg-4 col-sm-12 " data-aos="fade-up" data-aos-delay="300" *ngFor="let project of filteredProjects;">
                 <div class="card shadow-lg p-3 mb-5 bg-white rounded">
                     <div class="card-header d-flex flex-column " style="height: 400px;width: 100%;">
                         <div id="{{project.id}}-img" class="img-wrap" style="height: 400px;width: 100%;"

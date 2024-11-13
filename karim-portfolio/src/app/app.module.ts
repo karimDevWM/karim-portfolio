@@ -10,7 +10,6 @@ import { MatRadioModule } from '@angular/material/radio';
 import { FormsModule } from '@angular/forms';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { MatDialogModule } from '@angular/material/dialog';
-// import { DxTextAreaModule } from "devextreme-angular";
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
@@ -19,7 +18,6 @@ import { SkillsComponent } from './skills/skills.component';
 import { AboutComponent } from './about/about.component';
 import { CurriculumVitaeComponent } from './curriculum-vitae/curriculum-vitae.component';
 import { HomeComponent } from './home/home.component';
-import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -30,14 +28,12 @@ import { ContactComponent } from './contact/contact.component';
     AboutComponent,
     CurriculumVitaeComponent,
     HomeComponent,
-    ContactComponent,
   ],
 
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
     AppRoutingModule,
-    // DxTextAreaModule,
     FormsModule,
     MatRadioModule,
     MatSelectModule,
