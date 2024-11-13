@@ -10,7 +10,7 @@ import { MatRadioModule } from '@angular/material/radio';
 import { FormsModule } from '@angular/forms';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { MatDialogModule } from '@angular/material/dialog';
-import { DxTextAreaModule } from "devextreme-angular";
+// import { DxTextAreaModule } from "devextreme-angular";
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
@@ -37,7 +37,7 @@ import { ContactComponent } from './contact/contact.component';
     BrowserModule,
     BrowserAnimationsModule,
     AppRoutingModule,
-    DxTextAreaModule,
+    // DxTextAreaModule,
     FormsModule,
     MatRadioModule,
     MatSelectModule,
