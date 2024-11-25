@@ -31,23 +31,8 @@ export const projectsFr = [
         detailIsDisplayed: false,
     },
     {
-        id:"accessibilityTestor",
-        name: "Testeur accessibilité",
-        category: "projet en freelance",
-        technologies: 'WCAG Contrast checker, Color Contrast Analyser, HeadingsMap pour Firefox, HeadingsMap pour Chrome, PAC (PDF Accessibility Checker) 2021 pour Windows, AccessODF pour LibreOffice, Ace by DAISY App',
-        images: [
-            {
-                title:'technologies',
-                src: "assets/images/accessibilityTools.PNG",
-            },
-        ],
-        url: "https://karimdevwm.github.io/book-network-ui/login",
-        codeSourceUrl:'https://github.com/karimDevWM/book-network',
-        detailIsDisplayed: false,
-    },
-    {
         id:"ecommerce",
-        name: "construction d'une solution ecommerce",
+        name: "site ecommerce",
         category: "projet en freelance",
         technologies: 'C#, ASP.Net core 7 Web API, Docker, Github Action, Heroku, React, Stripe',
         images: [

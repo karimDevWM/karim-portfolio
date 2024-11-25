@@ -2,7 +2,7 @@ export const experiencesEn = [
     {
         title: "Application Conceptor Developer",
         company: 'WOJO, Lyon, Fr',
-        period: "september 2022 - march 2024",
+        period: "sep 2022 - march 2024",
         technologies: 'Typescript, Nest JS, php 7, Symfony, Docker, GitHub, GHCR, Ubuntu Server, MySQL',
         missions: [
             "Check Asset manager software maintainability and integration with external softwares (Salesforce)",
@@ -14,7 +14,7 @@ export const experiencesEn = [
     {
         title: "Python Developer",
         company: 'Wizwee, Remote job, Fr',
-        period: "february 2022 - june 2022 (5 months)",
+        period: "february - june 2022",
         technologies: 'Python, Gitlab, Jinja 2, MySQL, Ubuntu',
         missions: [
             "Back end development for a crowdfunding app",

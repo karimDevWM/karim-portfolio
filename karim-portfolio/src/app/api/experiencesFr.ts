@@ -2,7 +2,7 @@ export const experiencesFr = [
     {
         title: "Concepteur Développeur d'Application",
         company: 'WOJO, Lyon, Fr',
-        period: "septembre 2022 - mars 2024",
+        period: "sep 2022 - mars 2024",
         technologies: 'Typescript, Nest JS, php 7, Symfony, Docker, GitHub, GHCR, Ubuntu Server, MySQL',
         missions: [
             "Vérifier la Maintenabilité de l'outil AssetManager et son intégration avec les autres logiciels externes",
@@ -14,7 +14,7 @@ export const experiencesFr = [
     {
         title: "Développeur Python",
         company: 'Wizwee, Travail à distance, Fr',
-        period: "février 2022 - juin 2022 (5 mois)",
+        period: "février 2022-juin 2022",
         technologies: 'Python, Gitlab, Jinja 2, MySQL, Ubuntu',
         missions: [
             "développement back end d'une application de crowdfunding",

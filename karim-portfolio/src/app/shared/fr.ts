@@ -8,11 +8,12 @@ export const locale = {
             'passionateAboutDevelopment':' Passionné par le développement',
             'mobility': 'Mobile dans toute la France',
             'years': '33 ans',
-            'graduation': "Bac+3/4 de Concepteur Développeur d'Appliacations + titre DevOps",
+            'graduation': "Bac+3/4 Concepteur Développeur + DevOps",
             'myResearch': 'Recherche de contrat CDI, CDD, Freelance',
             'researchDescription': "Je recherche une entreprise innovante et centrée sur l'utilisateur pour répondre au mieux aux besoins du client, de son idée à la livraison finale de son projet, ou participer à l'amélioration d'un projet existant.",
             'and':'et',
             'followMeOn':'Suivez-moi sur Linkedin',
+            'freelance':'Testeur Accessibilité en freelance',
         },
         'contact': {
             'contactMe': 'Contactez moi',
